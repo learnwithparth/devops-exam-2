@@ -46,7 +46,7 @@ class DemoApplicationTests {
     @Test
     public void shouldReturnDefaultMessage() throws Exception {
         this.mockMvc.perform(get("/")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("20it121")));
+                .andExpect(content().string(containsString("20it127")));
     }
 
 }
